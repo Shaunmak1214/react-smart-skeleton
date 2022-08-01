@@ -1,13 +1,13 @@
 {
-  "name": "@inva-ui/react",
-  "version": "0.1.8",
-  "description": "Inva UI is a modular, accessible building blocks library for you to start off your react projects easily",
+  "name": "react-smart-skeleton",
+  "version": "0.1.0",
+  "description": "React Smart Skeleton - The only skeleton that you don't need to switch on your brain",
   "keywords": [
     "react",
     "components",
     "ui"
   ],
-  "author": "Shaun Mak",
+  "author": "Shaun Mak, Jason Tan",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/esm/index.d.ts",
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:Shaunmak1214/InvaUI.git"
+    "url": "git@github.com:Shaunmak1214/react-smart-skeleton.git"
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
@@ -26,7 +26,8 @@
     "@testing-library/user-event": "^12.1.10",
     "@types/jest": "^26.0.15",
     "@types/node": "^12.0.0",
-    "react-scripts": "4.0.3",
+    "react-refresh": "^0.14.0",
+    "react-scripts": "5.0.1",
     "web-vitals": "^1.0.1"
   },
   "peerDependencies": {
@@ -91,12 +92,12 @@
     "@babel/cli": "^7.14.8",
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
-    "@storybook/addon-actions": "^6.3.7",
-    "@storybook/addon-essentials": "^6.3.7",
-    "@storybook/addon-links": "^6.3.7",
-    "@storybook/node-logger": "^6.3.7",
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-links": "^6.5.9",
+    "@storybook/node-logger": "^6.5.9",
     "@storybook/preset-create-react-app": "^3.2.0",
-    "@storybook/react": "^6.3.7",
+    "@storybook/react": "^6.5.9",
     "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.9",
     "@typescript-eslint/eslint-plugin": "^4.29.3",

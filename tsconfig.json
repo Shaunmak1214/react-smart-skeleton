@@ -24,12 +24,6 @@
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true
   },
-  "include": ["src/lib/components"],
-  "exclude": [
-    "node_modules",
-    "compiled",
-    "dist",
-    "src/components",
-    "src/stories"
-  ]
+  "include": ["packages/"],
+  "exclude": ["node_modules", "compiled", "dist", "packages/components"]
 }
